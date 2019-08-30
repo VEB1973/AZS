@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b06a0609-8635-4228-8465-5194651f7655">
+  <producedTypes>
+    <objectType typeId="4c37922e-b9dc-48de-a4c6-58947bc4537e" valueTypeId="3180610d-2e76-41b3-be11-feb073000e4f"/>
+    <refType typeId="c990f3d7-24c9-4e67-b390-a94ad0af0b77" valueTypeId="2022f095-56dc-4e41-b737-044713311db0"/>
+    <selectionType typeId="d5c449d1-a724-42b0-8e26-7ccce1597c4d" valueTypeId="fa4f80f3-fcdf-42f2-afc2-6f83bfcb554f"/>
+    <listType typeId="1062dac7-1a1c-4502-ac08-57c96f9be76b" valueTypeId="17d7d522-56e9-4534-81e4-347c2922e2be"/>
+    <managerType typeId="1e289f60-1079-407a-b1ad-8588106445ab" valueTypeId="afd4d27c-568c-4e97-91de-aeaaec51f382"/>
+  </producedTypes>
+  <name>Согра_ТранспортныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Согра_ТранспортныеСредства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Согра_ТранспортныеСредства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

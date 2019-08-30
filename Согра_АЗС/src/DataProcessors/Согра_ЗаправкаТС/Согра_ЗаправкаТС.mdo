@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5f536b8-0fda-4d38-a6c7-f74748509e2a">
+  <producedTypes>
+    <objectType typeId="df33537a-9d3a-4c0f-87c4-0bfb2fbf835a" valueTypeId="d2f75514-39c7-432d-8276-f14451d21028"/>
+    <managerType typeId="90454cbe-1736-4f8f-8f43-70e93a995814" valueTypeId="29a526ea-1463-4407-a1c4-7e4f832e4d42"/>
+  </producedTypes>
+  <name>Согра_ЗаправкаТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заправка транспортного средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="c08b6d47-fca5-443f-aa08-adf66bc42385">
+    <name>ТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Согра_ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>
