@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f422d28c-68b1-4710-9ca4-f7c0f622ae23">
+  <producedTypes>
+    <selectionType typeId="1e0c8353-3ff2-49e8-bfa0-dddf930ede3b" valueTypeId="ca385f94-4349-4614-b601-7b873c2e258e"/>
+    <listType typeId="81d19795-ac16-4d77-bb12-de8c9c53e95f" valueTypeId="09a7addd-0d62-4011-9a10-cc49e695e0c8"/>
+    <managerType typeId="3f04cae0-96de-49e2-82bd-d441058c21ba" valueTypeId="a9754670-4ce1-40e3-91b8-e176d579cca3"/>
+    <recordSetType typeId="efd0a236-6b26-4a60-817c-63b6002c5fe0" valueTypeId="bac510f0-d557-4668-8435-26de387ea1b6"/>
+    <recordKeyType typeId="e2b26c7a-064c-4d23-8221-02e98e3e8d0a" valueTypeId="086a7e1c-3ba2-4b2e-a160-5472d0159b1d"/>
+    <recordType typeId="5cfb4876-9935-4eb7-b17d-f42a9893d0e3" valueTypeId="f1a90dc9-13b9-4443-9632-6edfbdb06b3b"/>
+  </producedTypes>
+  <name>Согра_Заправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согра заправки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="45e30bba-1541-4bd3-9734-d88e15b72844">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="ecf73433-32ec-4a86-9e28-e0b5fcebcfdd">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Согра_Водители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="37589322-a1ed-4bb1-8011-5f8bf4b1434a">
+    <name>ТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Согра_ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="805b59de-25c9-476c-8884-684cb69d7ed5">
+    <name>ВидТоплива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид топлива</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Согра_ВидыТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

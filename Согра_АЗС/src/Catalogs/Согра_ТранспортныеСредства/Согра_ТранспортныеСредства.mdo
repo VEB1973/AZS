@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b06a0609-8635-4228-8465-5194651f7655">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b06a0609-8635-4228-8465-5194651f7655">
   <producedTypes>
     <objectType typeId="4c37922e-b9dc-48de-a4c6-58947bc4537e" valueTypeId="3180610d-2e76-41b3-be11-feb073000e4f"/>
     <refType typeId="c990f3d7-24c9-4e67-b390-a94ad0af0b77" valueTypeId="2022f095-56dc-4e41-b737-044713311db0"/>
@@ -23,7 +23,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>50</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -31,4 +31,50 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Согра_ТранспортныеСредства.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4bd21afe-5450-4f72-bddb-3111f40e50a9">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной водитель</value>
+    </synonym>
+    <comment>Основной водитель данного транспортного средства</comment>
+    <type>
+      <types>CatalogRef.Согра_Водители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1abfca16-23fd-4e50-b677-5f95a5325916">
+    <name>НомерГосРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер гос. регистрации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4e26c825-a4dd-47e7-9037-136688d7177a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

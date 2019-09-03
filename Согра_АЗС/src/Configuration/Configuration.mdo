@@ -352,9 +352,12 @@
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Согра_ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.Согра_Водители</catalogs>
+  <documents>Document.Согра_Заправка</documents>
   <enums>Enum.СпособыРедактированияЭлектронныхПисем</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <enums>Enum.Согра_ВидыТоплива</enums>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
@@ -374,4 +377,5 @@
   <informationRegisters>InformationRegister.СведенияОПользователях</informationRegisters>
   <informationRegisters>InformationRegister.СеансыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Согра_Заправки</accumulationRegisters>
 </mdclass:Configuration>

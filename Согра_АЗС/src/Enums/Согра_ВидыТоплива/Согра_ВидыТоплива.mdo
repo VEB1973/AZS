@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c20b2e52-e319-4264-9c2a-6482bd143864">
+  <producedTypes>
+    <refType typeId="dce6cfaa-d930-477d-bf00-d5415aa78e96" valueTypeId="ed08978e-1a89-4ccb-9b54-504ce0069c02"/>
+    <listType typeId="f2677b32-bab2-4273-8b91-3c375b258759" valueTypeId="415e87c5-a206-441f-b4e5-495ade44baa5"/>
+    <managerType typeId="4bcb8b1e-706e-4039-a61b-205f922ae59f" valueTypeId="8932c582-f8ed-485c-811d-09cb480cb51a"/>
+  </producedTypes>
+  <name>Согра_ВидыТоплива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды топлива</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fc33a4c3-6744-45da-b54e-00911934d1b8">
+    <name>ДизельноеТопливо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дизельное топливо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5be894e-3386-4e03-b044-97e81e021679">
+    <name>БензинАИ_92</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бензин АИ-92</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="664b1c59-b51e-4667-bb07-47d7f483343a">
+    <name>БензинАИ_95</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бензин АИ-95</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

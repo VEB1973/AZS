@@ -9,4 +9,8 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Согра_ТранспортныеСредства</content>
   <content>DataProcessor.Согра_ЗаправкаТС</content>
+  <content>Catalog.Согра_Водители</content>
+  <content>AccumulationRegister.Согра_Заправки</content>
+  <content>Document.Согра_Заправка</content>
+  <content>Enum.Согра_ВидыТоплива</content>
 </mdclass:Subsystem>

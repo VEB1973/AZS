@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d63ac2e-0dde-4902-b0af-ad13d695fa9a">
+  <producedTypes>
+    <objectType typeId="273f6f9b-06f4-419d-bbd4-397f6ae00143" valueTypeId="62735c22-e6ae-4dd4-9b8c-88df8d62ff3c"/>
+    <refType typeId="6c95004d-bc29-4600-95df-3622d01912f5" valueTypeId="c9fe6a14-4509-40ce-b975-4d65d9c2824a"/>
+    <selectionType typeId="63de3486-b8d3-4d1d-8d71-e51be0d957d4" valueTypeId="f51bba1b-494c-488a-b71d-83f534eb7c19"/>
+    <listType typeId="63d3189b-08c4-46e6-8f98-66b9fc11c67b" valueTypeId="c5b84ae8-978c-4e29-88e8-2f962f213593"/>
+    <managerType typeId="c5acbd51-30c3-4a03-a837-fc34727f8569" valueTypeId="fd6dff69-1496-434b-b623-ce3187346ba0"/>
+  </producedTypes>
+  <name>Согра_Водители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согра водители</value>
+  </synonym>
+  <comment>Справочник водителей транспортных средств</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Согра_Водители.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Согра_Водители.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Согра_Водители.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f3fe181b-3bd1-44a5-b6b2-0a97babdf428">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="33a84fec-9b06-4f2d-9582-3bff167df6ff">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

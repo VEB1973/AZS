@@ -10,6 +10,7 @@
     <value>Заправка транспортного средства</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Согра_ЗаправкаТС.Form.Форма</defaultForm>
   <attributes uuid="c08b6d47-fca5-443f-aa08-adf66bc42385">
     <name>ТС</name>
     <synonym>
@@ -22,4 +23,25 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="ea904cee-bb47-4bf6-b25f-8193da7fceec">
+    <name>Водитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Водитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Согра_Водители</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2bf990b1-33f9-4036-9b38-c26a2b56df3a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
