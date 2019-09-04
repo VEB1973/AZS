@@ -307,10 +307,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объем</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.Объем</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -587,28 +585,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>Объем</name>
-    <title>
-      <key>ru</key>
-      <value>Объем</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
