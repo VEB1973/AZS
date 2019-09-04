@@ -13,4 +13,6 @@
   <content>AccumulationRegister.Согра_Заправки</content>
   <content>Document.Согра_Заправка</content>
   <content>Enum.Согра_ВидыТоплива</content>
+  <content>Catalog.Согра_Колонки</content>
+  <content>Enum.Согра_СтатусыКонтроллера</content>
 </mdclass:Subsystem>

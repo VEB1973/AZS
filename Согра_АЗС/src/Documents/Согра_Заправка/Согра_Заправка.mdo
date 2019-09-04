@@ -77,13 +77,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="95680c3e-7042-40b0-ac79-78e10a01ad61">
-    <name>ВидТоплива</name>
+    <name>Колонка</name>
     <synonym>
       <key>ru</key>
-      <value>Вид топлива</value>
+      <value>Колонка</value>
     </synonym>
     <type>
-      <types>EnumRef.Согра_ВидыТоплива</types>
+      <types>CatalogRef.Согра_Колонки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

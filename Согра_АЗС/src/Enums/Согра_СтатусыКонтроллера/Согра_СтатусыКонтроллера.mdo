@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1ea0385-1e78-48ce-9ae2-3c74ece93d53">
+  <producedTypes>
+    <refType typeId="90cc3a0c-c093-4dc2-86e4-190dfbaadecb" valueTypeId="49479593-418c-4fa5-bb5c-2e7bff67fd41"/>
+    <listType typeId="79fa16a6-8d8b-4de2-97d9-94aded45683b" valueTypeId="cf098fcf-254b-47b4-a826-b04a82d67f7f"/>
+    <managerType typeId="39cc01d5-679d-4e17-b41b-34195500b804" valueTypeId="89f7d77b-f486-40e9-b7a0-f800938fa965"/>
+  </producedTypes>
+  <name>Согра_СтатусыКонтроллера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы контроллера</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1551f1b8-bacf-490c-a1d5-65d94b3eb991">
+    <name>Разрешение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d01547f-6fd0-41a6-b7c4-5fbd7d65e218">
+    <name>СТОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>СТОП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ac6c460-6ef7-4a50-b433-8362859c496f">
+    <name>Выключено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выключено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

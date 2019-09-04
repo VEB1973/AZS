@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d26debd9-6e20-4283-8ae3-ae102d4caa1a">
+  <name>Согра_Заправщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заправщик</value>
+  </synonym>
+</mdclass:Role>

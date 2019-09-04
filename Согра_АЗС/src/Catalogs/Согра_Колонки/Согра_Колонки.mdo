@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0afcd44-9ac6-4e46-932c-6d33e61da15b">
+  <producedTypes>
+    <objectType typeId="9028f6dd-af9b-4469-b5c1-e4ee1b0b9464" valueTypeId="0749457d-fc50-4a55-a6fc-ebbb97407808"/>
+    <refType typeId="0ff5fb91-0ef9-4d49-9dcc-7d9335e6b302" valueTypeId="55a97f9d-0390-428d-8c82-15dcd137dacf"/>
+    <selectionType typeId="870d2255-72e7-4def-b85e-34abc7d44a8a" valueTypeId="2dd75675-0a14-4f4e-9e70-c42991b53afc"/>
+    <listType typeId="f77f9978-cca7-4d44-bd39-df310190cc26" valueTypeId="73dd77d3-fcea-41f1-b6cc-9d5f580684e1"/>
+    <managerType typeId="d7c4f721-643c-4f65-b586-8e6c34c1e17d" valueTypeId="92519d74-618c-40a6-80f1-c8e82f66c411"/>
+  </producedTypes>
+  <name>Согра_Колонки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Топливораздаточные колонки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Согра_Колонки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Согра_Колонки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Согра_Колонки.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="b0198d5c-b602-4819-90ea-dcddbd99b82c">
+    <name>НомерКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер колонки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fcca9f3c-5f83-4be7-bfd0-783ad8864f6b">
+    <name>ВидТоплива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид топлива</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Согра_ВидыТоплива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="76871712-2ae6-4e13-a934-a7c78134935a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

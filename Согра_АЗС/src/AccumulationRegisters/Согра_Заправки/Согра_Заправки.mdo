@@ -48,6 +48,20 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="019e0889-9178-49cd-aed2-90d70b0fa1c7">
+    <name>Колонка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Согра_Колонки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="37589322-a1ed-4bb1-8011-5f8bf4b1434a">
     <name>ТС</name>
     <synonym>
