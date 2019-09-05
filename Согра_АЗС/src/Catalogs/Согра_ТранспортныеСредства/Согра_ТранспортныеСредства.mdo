@@ -10,7 +10,7 @@
   <name>Согра_ТранспортныеСредства</name>
   <synonym>
     <key>ru</key>
-    <value>Транспортные средства</value>
+    <value>ТС (транспортные средства)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Согра_ТранспортныеСредства.StandardAttribute.Description</inputByString>

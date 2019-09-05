@@ -10,7 +10,7 @@
   <name>Согра_Заправка</name>
   <synonym>
     <key>ru</key>
-    <value>Заправка</value>
+    <value>Заправка ТС</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Согра_Заправка.StandardAttribute.Number</inputByString>
@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Согра_Заправка.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.Согра_Заправки</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -91,4 +92,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="c0874fc9-2401-4863-8acb-656dfe7a90b6">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>

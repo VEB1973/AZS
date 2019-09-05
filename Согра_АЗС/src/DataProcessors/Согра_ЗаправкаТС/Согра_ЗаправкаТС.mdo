@@ -7,7 +7,7 @@
   <name>Согра_ЗаправкаТС</name>
   <synonym>
     <key>ru</key>
-    <value>Заправка транспортного средства</value>
+    <value>Рабочее место заправщика</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.Согра_ЗаправкаТС.Form.Форма</defaultForm>

@@ -10,7 +10,7 @@
   <name>Согра_Водители</name>
   <synonym>
     <key>ru</key>
-    <value>Согра водители</value>
+    <value>Водители</value>
   </synonym>
   <comment>Справочник водителей транспортных средств</comment>
   <useStandardCommands>true</useStandardCommands>

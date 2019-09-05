@@ -10,7 +10,7 @@
   <name>Согра_Колонки</name>
   <synonym>
     <key>ru</key>
-    <value>Топливораздаточные колонки</value>
+    <value>ТПК (топливораздаточные колонки)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Согра_Колонки.StandardAttribute.Description</inputByString>

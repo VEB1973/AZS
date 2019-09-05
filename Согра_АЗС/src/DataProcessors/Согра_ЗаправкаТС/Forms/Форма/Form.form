@@ -946,6 +946,10 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <handlers>
+    <event>OnReopen</event>
+    <name>ПриПовторномОткрытии</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
